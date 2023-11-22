@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.Navbar a {
+    color: black;
+}
+
+.pictures{
+    display: flex ;
+    justify-content: center;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+img{
+    width: 22%;
+    height: 22%;
+}
